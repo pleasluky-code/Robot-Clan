@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+body{
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position:right 40px;
+    font-family: "Oswald", sans-serif;
+
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    animation: rainbow 8s infinite;
+}
+@keyframes rainbow {
+  0%   { color: red; }
+  20%  { color: orange; }
+  40%  { color: yellow; }
+  60%  { color: green; }
+  80%  { color: blue; }
+  100% { color: purple; }
+}
+.line{
+    width: 800px;
+    border: 2px solid purple;
+    margin-top: 10px;
+}
+.description{
+    text-align: center;
+    font-weight: 1000;
+}
+.log{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+.registration{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+     border-bottom: 1px solid orange;
+    padding-bottom: 2px;
+}
+label{
+    color: rgba(221, 210, 210, 0.828);
+    padding: 10px;
+    margin-top: 5px;
+    display:inline-block;
+}
+.lines{
+    width: 500px;
+    border: 2px solid grey;
+
+}
+.form{
+    text-align: center;
+    background-color: rgba(156, 12, 233, 0.863);
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-field{
+    color: rgb(179, 165, 165);
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    padding: 7px;
+    background-color: rgba(205, 190, 190, 0.305);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p{
+    color: rgba(221, 210, 210, 0.828);
+}
+.gender{
+    padding: 5px;
+}
+.button{
+    margin-left: 20px
+}
+.text{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    height: 90px;
+    text-align: center;
+    background-color: rgba(205, 190, 190, 0.305);
+    margin-bottom: 5px;    
+}
+button{
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(230, 169, 57, 0.803);
+    margin-bottom: 5px;    
+    font-size: 15px;
+}
+.logg{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    padding-bottom: 2px;
+}
+.reg{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.save{
+  padding: 2px;
+  margin-bottom: 20px;
+  
+}
+.password{
+    text-decoration: none;
+  color: grey;
+}
